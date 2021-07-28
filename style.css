@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  color: black;
+  box-sizing: border-box;
+}
+header {
+  font-size: 2.2rem;
+  padding: 1.2rem;
+  background-color: #ffffff;
+
+  text-align: center;
+  border-bottom: 5px solid #5b1a5b;
+}
+
+body {
+  font-family: 'Akaya Kanadaka', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #5b1a5b;
+  background-image: linear-gradient(to top left, #9963e0 0%, #4430f7 100%);
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+}
+h2 {
+  text-align: center;
+  font-size: 1.9rem;
+}
+footer {
+  padding: 1rem;
+  bottom: 0rem;
+  position: fixed;
+  width: 100%;
+}
+
+#round-winner {
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  width: 12em;
+  font-size: 2.8rem;
+  padding: 4rem;
+
+  border-radius: 1.5rem;
+  box-shadow: 0rem 0.5rem 0.5rem #2a2a2b;
+}
+
+.btTxt--hand {
+  height: 10rem;
+  margin: 0.6rem 0.975rem;
+}
+.btTxt--hand:hover {
+  height: 11rem;
+  margin: 0.1rem 0.45rem;
+}
+.btTxt--restart {
+  height: 10rem;
+  float: right;
+}
+.btTxt--restart:hover {
+  height: 10.5rem;
+  background-color: #23f702;
+  border-radius: 50%;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle {
+  margin-top: 0rem;
+  padding: 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hand--player {
+  height: 17rem;
+  margin: 10px;
+}
+.hand--computer {
+  height: 17rem;
+  margin: 1rem;
+}
+.score {
+  font-size: 7rem;
+  margin: 2rem;
+}
+.name {
+  font-size: 3.5rem;
+  padding: 0.9rem;
+}
+.player {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 7%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 62.5%;
+    color: #000;
+    font-family: 'Akaya Kanadaka', sans-serif;
+  }
+
+  header {
+    color: #5b1a5b;
+    font-size: 1.4rem;
+    background-color: #fff;
+    border-bottom: 5px solid #5b1a5b;
+    width: auto 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to top left, #9963e0 0%, #4430f7 100%);
+    font-weight: 400;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80%;
+    margin: 1.2rem;
+  }
+  footer {
+    background-color: #fff;
+    border-top: 5px solid #5b1a5b;
+    width: 100%;
+    bottom: 0rem;
+  }
+
+  .middle {
+    margin-top: 1rem;
+    padding: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .player {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 6%;
+  }
+  .hand--player {
+    height: 8rem;
+    margin: 1rem;
+  }
+  .hand--computer {
+    height: 8rem;
+    margin: 1rem;
+  }
+  .score {
+    font-size: 4rem;
+    margin: 2rem;
+  }
+  .name {
+    font-size: 2rem;
+    padding: 0.9rem;
+  }
+
+  #round-winner {
+    background-color: white;
+    width: 10em;
+    font-size: 1.8rem;
+    padding: 1.4rem;
+
+    border-radius: 1.5rem;
+    box-shadow: 0px 0.5rem 0.5rem rgb(42, 42, 43);
+  }
+  .btTxt--hand:hover {
+    height: 6rem;
+    margin: 0.1rem 0.47rem;
+  }
+
+  .btTxt--hand {
+    height: 5rem;
+    margin: 0.6rem 0.975rem;
+  }
+  .btTxt--restart:hover {
+    height: 4rem;
+    background-color: rgb(35, 247, 2);
+    border-radius: 50%;
+  }
+
+  .btTxt--restart {
+    height: 4rem;
+    float: right;
+  }
+  .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} ;

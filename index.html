@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rock|Paper|Scissors</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-text">
+        <h1>Rock | Paper | Scissors</h1>
+      </div>
+    </header>
+    <!-- 
+
+     -->
+    <main>
+      <section class="player player--0">
+        <h2 class="name" id="name--p">Player 1</h2>
+        <p class="score" id="score--p">3</p>
+        <img src="rock.png" alt="RPS image" class="hand--player" />
+      </section>
+      <section class="middle">
+        <h2 class="name-winner" id="round-winner">Make a Selection!</h2>
+        <div class="btn-wrapper">
+          <input
+            type="image"
+            src="rock.png"
+            name="rockForm"
+            class="btTxt--hand"
+            id="rockForm"
+          />
+          <input
+            type="image"
+            src="paper.png"
+            name="paperForm"
+            class="btTxt--hand"
+            id="paperForm"
+          />
+          <input
+            type="image"
+            src="scissors.png"
+            name="scissorsForm"
+            class="btTxt--hand"
+            id="scissorsForm"
+          />
+        </div>
+      </section>
+      <section class="player computer--1">
+        <h2 class="name" id="name--c">Computer</h2>
+        <p class="score" id="score--c">2</p>
+        <img src="scissors.png" alt="RPS image" class="hand--computer" />
+      </section>
+    </main>
+    <!-- 
+  
+ -->
+    <footer>
+      <input
+        type="image"
+        src="restart1.png"
+        name="restartForm"
+        class="btTxt--restart"
+        id="restartForm"
+      />
+    </footer>
+    <script src="rps-script.js"></script>
+  </body>
+</html>
