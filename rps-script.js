@@ -86,7 +86,7 @@ btnPaper.addEventListener('click', function () {
 btnScissors.addEventListener('click', function () {
   if (playing) {
     playHand.classList.remove('hidden');
-    playHand.src = 'Scissors.png';
+    playHand.src = 'scissors.png';
     const computerResult = numGenerator(handChoice);
     console.log(computerResult);
     compHand.classList.remove('hidden');
