@@ -23,7 +23,7 @@ Take aways from this project:
 2. Continue to build on my CSS skills as there is room for improvement.
 3. Don't be so damned hard on myself. It's my first project!
 
-Resources Used:
+Resources:
 
 1. Hand-written notes taken from Jonas Schmedtmann's JS and HTML/CSS courses.
 2. Head-First HTML/CSS book.
