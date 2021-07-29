@@ -9,7 +9,7 @@ const btnPaper = document.getElementById('paperForm');
 const btnScissors = document.getElementById('scissorsForm');
 const btnRestart = document.getElementById('restartForm');
 const announceWin = document.querySelector('.name-winner');
-const handChoice = ['Rock', 'Paper', 'Scissors'];
+const handChoice = ['rock', 'paper', 'scissors'];
 //Starting Conditions
 let scores, activePlayer, playing, scorePlayer, scoreComp;
 const init = function () {
