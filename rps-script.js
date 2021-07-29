@@ -47,13 +47,13 @@ btnRock.addEventListener('click', function () {
     console.log(computerResult); //way to provide comparison as I build
     compHand.classList.remove('hidden');
     compHand.src = `${computerResult}.png`;
-    if (computerResult === 'Rock') {
+    if (computerResult === 'rock') {
       announceWin.textContent = 'Its a Tie!';
-    } else if (computerResult === 'Paper') {
+    } else if (computerResult === 'paper') {
       announceWin.textContent = 'Paper Beats Rock!';
       scoreComp += 1;
       scoreCompEl.textContent = scoreComp;
-    } else if (computerResult === 'Scissors') {
+    } else if (computerResult === 'scissors') {
       announceWin.textContent = 'Rock Beats Scissors!';
       scorePlayer += 1;
       scoreP1El.textContent = scorePlayer;
@@ -69,13 +69,13 @@ btnPaper.addEventListener('click', function () {
     console.log(computerResult);
     compHand.classList.remove('hidden');
     compHand.src = `${computerResult}.png`;
-    if (computerResult === 'Paper') {
+    if (computerResult === 'paper') {
       announceWin.textContent = 'Its a Tie!';
-    } else if (computerResult === 'Rock') {
+    } else if (computerResult === 'rock') {
       announceWin.textContent = 'Paper Beats Rock!';
       scorePlayer += 1;
       scoreP1El.textContent = scorePlayer;
-    } else if (computerResult === 'Scissors') {
+    } else if (computerResult === 'scissors') {
       announceWin.textContent = 'Scissors Beats Paper!';
       scoreComp += 1;
       scoreCompEl.textContent = scoreComp;
@@ -91,13 +91,13 @@ btnScissors.addEventListener('click', function () {
     console.log(computerResult);
     compHand.classList.remove('hidden');
     compHand.src = `${computerResult}.png`;
-    if (computerResult === 'Scissors') {
+    if (computerResult === 'scissors') {
       announceWin.textContent = 'Its a Tie!';
-    } else if (computerResult === 'Paper') {
+    } else if (computerResult === 'paper') {
       announceWin.textContent = 'Scissors beats Paper!';
       scorePlayer += 1;
       scoreP1El.textContent = scorePlayer;
-    } else if (computerResult === 'Rock') {
+    } else if (computerResult === 'rock') {
       announceWin.textContent = 'Rock Beats Scissors!';
       scoreComp += 1;
       scoreCompEl.textContent = scoreComp;
